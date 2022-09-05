@@ -2,7 +2,7 @@
     Romero Escamilla Oscar Eduardo
     22110112
     2P
-    Programación Orientada en Objetos
+    Programación Orientada a Objetos
     Descripción de programa:
         - Desarrollo de 3 figuras con el método draw en c++
 */
