@@ -16,7 +16,6 @@ using namespace std;
 int main ()
 {
     InputManager a;
-    Figure s, t, d;
 
     a.run();
 
