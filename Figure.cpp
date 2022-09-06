@@ -15,11 +15,10 @@ using namespace std;
 
 int main ()
 {
-    Figure a,b,c;
+    InputManager a;
+    Figure s, t, d;
 
-    a.draw();
-    b.draw();
-    c.draw();
+    a.run();
 
     return 0;
 }

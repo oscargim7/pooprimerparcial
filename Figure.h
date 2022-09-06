@@ -12,7 +12,9 @@ using namespace std;
 
 class Figure
 {
-    public:
+    class Square
+    {
+        public:
         int row, column;
 
         //Metodo que dibuja la figura
@@ -27,5 +29,60 @@ class Figure
                     
                 }
             }
-            
+    };
+
+    class Triangle
+    {
+        public:
+        int row, column;
+
+        //Metodo que dibuja la figura
+            void draw2()
+            {
+                for (int i = 0; i < row; i++)
+                {
+                    for (int j = 0; j < column; j++)
+                    {
+                        std::cout<<" * ";
+                    }
+                    
+                }
+            }
+    };
+
+    class Diamond
+    {
+        public:
+        int row, column;
+
+        //Metodo que dibuja la figura
+            void draw3()
+            {
+                for (int i = 0; i < row; i++)
+                {
+                    for (int j = 0; j < column; j++)
+                    {
+                        std::cout<<" * ";
+                    }
+                    
+                }
+            }
+    };
+     
+    /// Métodos que enlazan las clases de las figuras con el método draw
+    void lienzo(Square*square)
+    {
+        square->draw();
+    };
+
+    void lienzo2(Triangle*triangle)
+    {
+        triangle->draw2();
+    };
+
+    void lienzo3(Diamond*diamond)
+    {
+        diamond->draw3();
+    };
+    
 };

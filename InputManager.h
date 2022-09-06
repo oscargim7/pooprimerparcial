@@ -8,6 +8,7 @@
 */
 
 #include <iostream>
+#include "Figure.h"
 
 using namespace std;
 
@@ -22,7 +23,6 @@ class InputManager
         
             switch (opc)
             {
-
                         case 1:
                             cout<<"Ingresa las medidas del cuadrado\n";
                             cin>>medida;
@@ -46,4 +46,5 @@ class InputManager
                             break;
             }
         };
+
 };
