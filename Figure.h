@@ -17,7 +17,7 @@ class Figure
         public:
         int row, column;
 
-        //Metodo que dibuja la figura
+        //Métodos que dibujan las figuras
             void draw()
             {
                 for (int i = 0; i < row; i++)

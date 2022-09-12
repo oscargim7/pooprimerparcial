@@ -12,6 +12,7 @@
 
 using namespace std;
 
+/// Clase del menú
 class InputManager 
 {  
     public:
