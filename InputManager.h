@@ -7,9 +7,6 @@
         - Desarrollo de 3 figuras con el método draw en c++
 */
 
-
-
-
 #include <iostream>
 #include "Figure.h"
 
