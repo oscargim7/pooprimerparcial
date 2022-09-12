@@ -68,21 +68,4 @@ class Figure
                 }
             }
     };
-     
-    /// Métodos que enlazan las clases de las figuras con el método draw
-    void lienzo(Square*square)
-    {
-        square->draw();
-    };
-
-    void lienzo2(Triangle*triangle)
-    {
-        triangle->draw2();
-    };
-
-    void lienzo3(Diamond*diamond)
-    {
-        diamond->draw3();
-    };
-    
 };
