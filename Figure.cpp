@@ -16,7 +16,7 @@ using namespace std;
 int main ()
 {
     InputManager a;
-
+    //Se manda a llamar al método del menú
     a.run();
 
     return 0;
