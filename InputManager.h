@@ -16,7 +16,7 @@ using namespace std;
 class InputManager 
 {  
     public:
-         int medida, position, opc;
+         int row, column, opc;
         
         void run()
         { 
@@ -25,25 +25,25 @@ class InputManager
             switch (opc)
             {
                         case 1:
-                            cout<<"Ingresa las medidas del cuadrado\n";
-                            cin>>medida;
-                            cout<<"Ingresa la posicion en donde se encuentra el cuadrado";
-                            cin>>position;
-                            Figure::Square::draw(medida,position);
+                            cout<<"Ingresa las filas del cuadrado\n";
+                            cin>>row;
+                            cout<<"Ingresa las columnas cuadrado";
+                            cin>>column;
+                            Figure::Square::draw(row,column);
                             break;
                         case 2:
-                            cout<<"Ingresa las medidas del triangulo\n";
-                            cin>>medida;
-                            cout<<"Ingresa la posicion en donde se encuentra";
-                            cin>>position;
-                            Figure::Triangle::draw2(medida,position);
+                            cout<<"Ingresa las filas del triangulo\n";
+                            cin>>row;
+                            cout<<"Ingresa las columnas del triangulo";
+                            cin>>column;
+                            Figure::Triangle::draw2(row,column);
                             break;
                         case 3:
-                            cout<<"Ingresa las medidas del rombo\n";
-                            cin>>medida;
-                            cout<<"Ingresa la posicion en donde se encuentra";
-                            cin>>position;
-                            Figure::Diamond::draw3(medida,position);
+                            cout<<"Ingresa las filas del rombo\n";
+                            cin>>row;
+                            cout<<"Ingresa las columnas del rombo";
+                            cin>>column;
+                            Figure::Diamond::draw3(row,column);
                             break;
                         default:
                             cout<<"No se eligio ninguna de las opciones";

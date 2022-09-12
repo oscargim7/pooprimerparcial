@@ -10,6 +10,7 @@
 #include <iostream>
 #include "InputManager.h"
 #include "Figure.h"
+#pragma once
 
 using namespace std;
 
